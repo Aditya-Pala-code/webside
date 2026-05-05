@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #000d51;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* LOGO SECTION */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-section img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.title h1 {
+  font-size: 28px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.multi1 {
+  /* color: #1e3a8a;
+  font-weight: bold; */
+  background: linear-gradient(to right, purple, orange, green, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.multi2  {
+  background: linear-gradient(to right, purple, orange, green, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.title p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  background: green;
+  color: white;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+/* BUTTONS */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* COLORS */
+.home {
+  background: #1e3a8a;
+}
+
+.contact {
+  background: #7c3aed;
+}
+
+.address {
+  background: #16a34a;
+}
+
+.about {
+  background: #f97316;
+}

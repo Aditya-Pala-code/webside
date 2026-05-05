@@ -1,0 +1,139 @@
+/* MAIN FOOTER */
+.footer {
+  background: #000d51; /* dark blue */
+  color: white;
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* CONTAINER */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+  gap: 30px;
+}
+
+/* LOGO SECTION */
+.footer-logo {
+  max-width: 250px;
+}
+
+.footer-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.footer-logo h2 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #facc15; /* yellow */
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+/* LINKS */
+.footer-links {
+  min-width: 150px;
+}
+
+.footer-links h3 {
+  margin-bottom: 10px;
+  color: #38bdf8; /* sky blue */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-links li:hover {
+  color: #facc15;
+  transform: translateX(5px);
+}
+
+/* CONTACT */
+.footer-contact {
+  min-width: 180px;
+}
+
+.footer-contact h3 {
+  margin-bottom: 10px;
+  color: #4ade80; /* green */
+}
+
+.footer-contact p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* SOCIAL */
+.footer-social {
+  min-width: 180px;
+}
+
+.footer-social h3 {
+  margin-bottom: 10px;
+  color: #f472b6; /* pink */
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.social-icons a:hover {
+  color: #facc15;
+  transform: translateX(5px);
+}
+
+/* BOTTOM */
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #334155;
+  font-size: 13px;
+  margin-top: 20px;
+  color: #94a3b8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-logo,
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+    align-items: center;
+  }
+
+  .social-icons {
+    align-items: center;
+  }
+}
