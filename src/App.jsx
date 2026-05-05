@@ -1,23 +1,3 @@
-// Tumhe Layout Routing use karni hai.
-// Navbar + Footer same rahenge
-// Sirf center/MainContent change hoga button click par
-
-// ===============================
-// Folder Structure Example
-// src/
-//   App.jsx
-//   pages/
-//      Home.jsx
-//      About.jsx
-//      Contact.jsx
-//      Address.jsx
-//   components/
-//      Navbar.jsx
-//      Footer.jsx
-//      MainContent.jsx
-//      Layout.jsx
-// ===============================
-
 
 
 // ===============================
